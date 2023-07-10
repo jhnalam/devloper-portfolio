@@ -1,42 +1,50 @@
 /* css start */
-*{
+* {
     text-decoration: none;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px 0;
-    background: #FFF8F3;
+    /* padding: 20px 20px 20px 200px; */
+    margin: 0 200px;
+    padding-top: 20px;
 }
-.nav-heading{
+
+.nav-heading {
     text-align: center;
 }
-nav h3{
+
+nav h3 {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    
+
 }
-nav ul li a{
-    padding: 15px 35px; 
+
+nav ul li a {
+    padding: 15px 35px;
     color: #474747;
     font-size: 20px;
     font-weight: 400;
 
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -44,6 +52,60 @@ nav ul li a:hover{
     transition: all linear .3s;
     border-radius: 5px;
 }
-nav h3 span{
+
+nav h3 span {
     color: tomato;
+}
+
+.header-part {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-content h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    width: 585px;
+    /* height: 80px; */
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.banner-content a{
+    color: #FD6E0A;
+    background: #FFF8F3;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.banner-content a:hover{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FD6E0A;
+    transition: all linear .3s;
+    border-radius: 5px;
+}
+.banner img {
+    width: 500px;
+    
 }
