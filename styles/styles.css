@@ -65,6 +65,9 @@ nav h3 span {
     padding-left: 200px;
     display: flex;
     align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner-content h3 {
@@ -89,7 +92,8 @@ nav h3 span {
     padding: 15px 0;
     margin-bottom: 15px;
 }
-.banner-content a{
+
+.banner-content a {
     color: #FD6E0A;
     background: #FFF8F3;
     padding: 15px 35px;
@@ -97,7 +101,8 @@ nav h3 span {
     font-weight: 400;
     margin-top: 50px;
 }
-.banner-content a:hover{
+
+.banner-content a:hover {
     color: #fff;
     font-weight: 400;
     font-size: 20px;
@@ -105,7 +110,16 @@ nav h3 span {
     transition: all linear .3s;
     border-radius: 5px;
 }
+
 .banner img {
     width: 500px;
+
+}
+
+.img {
+    background-image: url('../images/hardy.png');
+    width: 584px;
+    height: 676px;
+    /* background-position: bottom right; */
     
 }
